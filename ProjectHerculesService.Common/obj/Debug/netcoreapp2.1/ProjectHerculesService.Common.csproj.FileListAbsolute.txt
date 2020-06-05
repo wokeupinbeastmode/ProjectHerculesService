@@ -1,0 +1,9 @@
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\bin\Debug\netcoreapp2.1\ProjectHerculesService.Common.deps.json
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\bin\Debug\netcoreapp2.1\ProjectHerculesService.Common.dll
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\bin\Debug\netcoreapp2.1\ProjectHerculesService.Common.pdb
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.csprojAssemblyReference.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.csproj.CoreCompileInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.AssemblyInfoInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.AssemblyInfo.cs
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.dll
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.1\ProjectHerculesService.Common.pdb

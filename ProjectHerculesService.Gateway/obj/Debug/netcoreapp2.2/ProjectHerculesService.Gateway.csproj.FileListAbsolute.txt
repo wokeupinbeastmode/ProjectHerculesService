@@ -1,0 +1,12 @@
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.deps.json
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.dll
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.pdb
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csprojAssemblyReference.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.AssemblyInfoInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.AssemblyInfo.cs
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csproj.CopyComplete
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb

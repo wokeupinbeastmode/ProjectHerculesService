@@ -1,0 +1,41 @@
+﻿@model ProjectHerculesService.Models.UserModel
+
+@{
+    ViewData["Title"] = "Add User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add User</h1>
+<div class="row">
+    @using (Html.BeginForm("InsertUserAsync", "User", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                @Html.TextBoxFor(x => x.UserName, new { id = "UserName", @class = "form-control" })
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                @Html.TextBoxFor(x => x.Password, new { id = "Password", @class = "form-control" })
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                @Html.TextBoxFor(x => x.FirstName, new { id = "FirstName", @class = "form-control" })
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                @Html.TextBoxFor(x => x.LastName, new { id = "LastName", @class = "form-control" })
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    }
+</div>

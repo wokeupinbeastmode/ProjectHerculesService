@@ -1,0 +1,4 @@
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.IOC\obj\Debug\netcoreapp2.1\ProjectHerculesService.IOC.csprojAssemblyReference.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.IOC\obj\Debug\netcoreapp2.1\ProjectHerculesService.IOC.csproj.CoreCompileInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.IOC\obj\Debug\netcoreapp2.1\ProjectHerculesService.IOC.AssemblyInfoInputs.cache
+C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.IOC\obj\Debug\netcoreapp2.1\ProjectHerculesService.IOC.AssemblyInfo.cs

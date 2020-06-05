@@ -1,0 +1,36 @@
+﻿@model ProjectHerculesService.Models.Response.SalesTypesGetResponse
+
+@{
+    ViewData["Title"] = "Sales Types";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Sales Types in the System</h1>
+
+<hr />
+
+@*<a class="btn btn-info" asp-area="" asp-controller="User" asp-action="AddUserIndex">Add New User</a>*@
+<hr />
+<div class="row">
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Type Name</th>
+            <th>Sales By Type</th>
+        </tr>
+        @foreach (var type in Model.SaleTypes)
+        {
+            <tr>
+                <td>@type.SaleTypeId</td>
+                <td>@type.TypeName</td>
+                <td>@type.SalesByType</td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

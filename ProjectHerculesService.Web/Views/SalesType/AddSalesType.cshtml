@@ -1,0 +1,38 @@
+﻿@model ProjectHerculesService.Models.SalesTypesModel
+
+@{
+    ViewData["Title"] = "AddSalesType";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Add Sales Type</h1>
+
+<h4>SalesTypesModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("InsertSalesTypeAsync", "SalesType", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TypeName" class="control-label">Sales Type Name</label>
+                @Html.TextBoxFor(x => x.TypeName, new { id="TypeName", @class="form-control" })
+                <span asp-validation-for="TypeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SalesByType" class="control-label">Sales Amount</label>
+                @Html.TextBoxFor(x => x.SalesByType, new { id = "SalesByType", @class = "form-control" })
+                <span asp-validation-for="SalesByType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

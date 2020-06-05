@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "ProjectHerculesService.Models/1.0.0": {
+        "dependencies": {
+          "ProjectHerculesService.Gateway": "1.0.0"
+        },
+        "runtime": {
+          "ProjectHerculesService.Models.dll": {}
+        }
+      },
+      "ProjectHerculesService.DTO/1.0.0": {
+        "runtime": {
+          "ProjectHerculesService.DTO.dll": {}
+        }
+      },
+      "ProjectHerculesService.Gateway/1.0.0": {
+        "dependencies": {
+          "ProjectHerculesService.DTO": "1.0.0"
+        },
+        "runtime": {
+          "ProjectHerculesService.Gateway.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectHerculesService.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectHerculesService.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectHerculesService.Gateway/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
