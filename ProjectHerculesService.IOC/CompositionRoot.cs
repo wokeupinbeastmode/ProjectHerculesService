@@ -1,4 +1,4 @@
-﻿using ProjectHerculesService.IOC.DependencyContainer;
+﻿using LightInject;
 using ProjectHerculesService.Library.Implementation;
 using ProjectHerculesService.Library.Implementation.Builders;
 using ProjectHerculesService.Library.Interface;
@@ -7,24 +7,25 @@ using ProjectHerculesService.Repository.Interface;
 
 namespace ProjectHerculesService.IOC
 {
-    public class CompositionRoot
+    public class CompositionRoot : ICompositionRoot
     {
-        public static void Bind()
+        public void Compose(IServiceRegistry serviceRegistry)
         {
-            IocDependencyRegistry.Bind();
+            //IocDependencyRegistry.Bind();
+
             //System Initializations
-            DependencyContainer.DependencyContainer.Register<IContextContainer, ContextContainer>();
-            
+            serviceRegistry.Register<IContextContainer, ContextContainer>();
+
             //Library Initializations
-           
-            DependencyContainer.DependencyContainer.Register<IUserManager, UserManager>();
-            DependencyContainer.DependencyContainer.Register<ISalesTypeManager, SalesTypeManager>();
-            DependencyContainer.DependencyContainer.Register<ISalesTypeBuilder, SalesTypeBuilder>();
-            DependencyContainer.DependencyContainer.Register<ICreateUserRequestBuilder, CreateUserRequestBuilder>();
+
+            serviceRegistry.Register<IUserManager, UserManager>();
+            serviceRegistry.Register<ISalesTypeManager, SalesTypeManager>();
+            serviceRegistry.Register<ISalesTypeBuilder, SalesTypeBuilder>();
+            serviceRegistry.Register<ICreateUserRequestBuilder, CreateUserRequestBuilder>();
 
             //Repository Initializations
-            DependencyContainer.DependencyContainer.Register<IUserRepository, UserRepository>();
-            DependencyContainer.DependencyContainer.Register<ISalesTypeRepository, SalesTypeRepository>();
+            serviceRegistry.Register<IUserRepository, UserRepository>();
+            serviceRegistry.Register<ISalesTypeRepository, SalesTypeRepository>();
         }
     }
 }

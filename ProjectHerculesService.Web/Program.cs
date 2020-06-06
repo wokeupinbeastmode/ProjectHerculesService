@@ -10,7 +10,8 @@ namespace ProjectHerculesService.Web
         {
             try
             {
-                BuildWebHost(args).Run();
+                CreateWebHostBuilder(args).Build().Run();
+                //BuildWebHost(args).Run();
                 //CreateWebHostBuilder(args);
             }
             catch (System.Exception ex)
@@ -24,25 +25,25 @@ namespace ProjectHerculesService.Web
             //CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args)
-        {
-            IWebHostBuilder builder = WebHost.CreateDefaultBuilder(args);
+        //public static IHostBuilder BuildWebHost(string[] args)
+        //{
+        //IWebHostBuilder builder = WebHost.CreateDefaultBuilder(args);
 
 #if DEBUG
-            builder.UseEnvironment(EnvironmentName.Development);
-            //need the rest of the environments later
+        //builder.UseEnvironment(EnvironmentName.Development);
+        //need the rest of the environments later
 #endif
-            return builder
-                .UseIISIntegration()
-                .UseStartup<Startup>()
-                .UseKestrel() //was added after things broke
-                .ConfigureKestrel((context, options) => { }) //was added after things broke
-                .Build();
-        }
-            //public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            //    WebHost.CreateDefaultBuilder(args)
-            //        .UseKestrel()
-            //        .ConfigureKestrel((context, options) => { })
-            //        .UseStartup<Startup>();
+        //return builder
+        //.UseIISIntegration()
+        //.UseStartup<Startup>()
+        //.UseKestrel() //was added after things broke
+        //ConfigureKestrel((context, options) => { }) //was added after things broke
+        //.Build();
+        //}
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
+                .ConfigureKestrel((context, options) => { })
+                .UseStartup<Startup>();
     }
 }

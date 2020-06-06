@@ -1,5 +1,4 @@
 ﻿using System;
-using LightInject;
 using LightInject.Microsoft.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,17 +14,23 @@ namespace ProjectHerculesService.Web
 {
     public class Startup
     {
-        public Startup(IHostingEnvironment env)
+
+        public Startup(IConfiguration configuration)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json")
-                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+            Configuration = configuration;
+        }
+
+        //public Startup(IHostingEnvironment env)
+        //{
+        //    var builder = new ConfigurationBuilder()
+        //        .SetBasePath(env.ContentRootPath)
+        //        .AddJsonFile("appsettings.json")
+        //        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
             
                 //.AddEnvironmentVariables();
 
-            Configuration = builder.Build();
-        }
+        //    Configuration = builder.Build();
+        //}
 
         public IConfiguration Configuration { get; }
 
@@ -33,17 +38,16 @@ namespace ProjectHerculesService.Web
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
 
-            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddSingleton<IWebHostBuilder, WebHostBuilder>();
-            services.AddSingleton<IConfiguration>(Configuration);
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //services.AddSingleton<IWebHostBuilder, WebHostBuilder>();
+            //services.AddSingleton<IConfiguration>(Configuration);
 
-            services.AddCors(o => o.AddPolicy("Allow", builder =>
-            {
-                builder.AllowAnyOrigin()
-                       .AllowAnyMethod()
-                       .AllowAnyHeader();
-            }));
+            //services.AddCors(o => o.AddPolicy("Allow", builder =>
+            //{
+            //    builder.AllowAnyOrigin()
+            //          .AllowAnyMethod()
+            //           .AllowAnyHeader();
+            //}));
 
             services.Configure<CookiePolicyOptions>(options =>
                     {
@@ -52,12 +56,16 @@ namespace ProjectHerculesService.Web
                         options.MinimumSameSitePolicy = SameSiteMode.None;
                     });
 
-            services.AddMvcCore().AddControllersAsServices().AddJsonOptions(options =>
-                options.SerializerSettings.ContractResolver = new DefaultContractResolver());
-            services.AddMemoryCache();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            //services.AddMvcCore()
+            //    .AddControllersAsServices()
+            //    .AddJsonOptions(options =>
+            //    options.SerializerSettings.ContractResolver = new DefaultContractResolver());
+            
+            //services.AddMemoryCache();
 
             var container = DependencyContainerInstance.Container;
-
             CompositionRoot.Bind();
 
             //Build and return the service provider

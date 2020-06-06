@@ -704,25 +704,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Beastmode\\.nuget\\packages\\": {},
+    "C:\\Users\\DuffyFamily\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj",
+      "projectUniqueName": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj",
       "projectName": "ProjectHerculesService.Gateway",
-      "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj",
-      "packagesPath": "C:\\Users\\Beastmode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Gateway\\obj\\",
+      "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj",
+      "packagesPath": "C:\\Users\\DuffyFamily\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Beastmode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DuffyFamily\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -736,8 +736,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {
-              "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj"
+            "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {
+              "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj"
             }
           }
         }

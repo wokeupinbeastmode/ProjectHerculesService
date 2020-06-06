@@ -6,3 +6,10 @@ C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.csproj.CoreCompileInputs.cache
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.dll
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\bin\Debug\netcoreapp2.2\ProjectHerculesService.Common.deps.json
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\bin\Debug\netcoreapp2.2\ProjectHerculesService.Common.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\bin\Debug\netcoreapp2.2\ProjectHerculesService.Common.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.AssemblyInfoInputs.cache
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.AssemblyInfo.cs
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Common\obj\Debug\netcoreapp2.2\ProjectHerculesService.Common.pdb

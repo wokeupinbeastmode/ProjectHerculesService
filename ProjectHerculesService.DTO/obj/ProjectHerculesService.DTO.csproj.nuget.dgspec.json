@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {}
+    "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {
+    "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj",
         "projectName": "ProjectHerculesService.DTO",
-        "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj",
-        "packagesPath": "C:\\Users\\Beastmode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.DTO\\obj\\",
+        "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\ProjectHerculesService.DTO.csproj",
+        "packagesPath": "C:\\Users\\DuffyFamily\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Beastmode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DuffyFamily\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,7 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

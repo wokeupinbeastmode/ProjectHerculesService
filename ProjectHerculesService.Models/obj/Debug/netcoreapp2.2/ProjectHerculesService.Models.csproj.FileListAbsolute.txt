@@ -12,3 +12,16 @@ C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Models\obj\Debug\
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.csproj.CopyComplete
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.dll
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.Models.deps.json
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.Models.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.Models.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.csprojAssemblyReference.cache
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.AssemblyInfoInputs.cache
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.AssemblyInfo.cs
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.csproj.CopyComplete
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Models\obj\Debug\netcoreapp2.2\ProjectHerculesService.Models.pdb

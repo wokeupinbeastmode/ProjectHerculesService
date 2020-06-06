@@ -10,3 +10,14 @@ C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csproj.CopyComplete
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
 C:\Users\Beastmode\Repo\ProjectHercules\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.deps.json
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\bin\Debug\netcoreapp2.2\ProjectHerculesService.DTO.pdb
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csprojAssemblyReference.cache
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.AssemblyInfoInputs.cache
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.AssemblyInfo.cs
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.csproj.CopyComplete
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.dll
+C:\Users\DuffyFamily\source\repos\ProjectHerculesService\ProjectHerculesService.Gateway\obj\Debug\netcoreapp2.2\ProjectHerculesService.Gateway.pdb

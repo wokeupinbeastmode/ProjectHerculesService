@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj": {}
+    "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj": {
+    "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj",
+        "projectUniqueName": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj",
         "projectName": "ProjectHerculesService.Data",
-        "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj",
-        "packagesPath": "C:\\Users\\Beastmode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Data\\obj\\",
+        "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Data\\ProjectHerculesService.Data.csproj",
+        "packagesPath": "C:\\Users\\DuffyFamily\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Beastmode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DuffyFamily\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

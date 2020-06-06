@@ -2,31 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
-      "LightInject/5.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.ValueTuple": "4.5.0"
-        },
-        "compile": {
-          "lib/netcoreapp2.0/LightInject.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/LightInject.dll": {}
-        }
-      },
-      "LightInject.Microsoft.DependencyInjection/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "LightInject": "5.3.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/LightInject.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/LightInject.Microsoft.DependencyInjection.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -932,15 +907,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "System.ValueTuple/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "ProjectHerculesService.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -1022,52 +988,6 @@
     }
   },
   "libraries": {
-    "LightInject/5.3.0": {
-      "sha512": "wZBByWE98FWbljfSd7p4L8Nr2F25lM6/rTxbNFZ8eOy+gSNCZGxyIXwjU2YyWyT+GF72QhcCyzt8Ym5OqdxoHQ==",
-      "type": "package",
-      "path": "lightinject/5.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/LightInject.dll",
-        "lib/net452/LightInject.pdb",
-        "lib/net452/LightInject.xml",
-        "lib/net46/LightInject.dll",
-        "lib/net46/LightInject.pdb",
-        "lib/net46/LightInject.xml",
-        "lib/netcoreapp2.0/LightInject.dll",
-        "lib/netcoreapp2.0/LightInject.pdb",
-        "lib/netcoreapp2.0/LightInject.xml",
-        "lib/netstandard1.1/LightInject.dll",
-        "lib/netstandard1.1/LightInject.pdb",
-        "lib/netstandard1.1/LightInject.xml",
-        "lib/netstandard1.3/LightInject.dll",
-        "lib/netstandard1.3/LightInject.pdb",
-        "lib/netstandard1.3/LightInject.xml",
-        "lib/netstandard1.6/LightInject.dll",
-        "lib/netstandard1.6/LightInject.pdb",
-        "lib/netstandard1.6/LightInject.xml",
-        "lib/netstandard2.0/LightInject.dll",
-        "lib/netstandard2.0/LightInject.pdb",
-        "lib/netstandard2.0/LightInject.xml",
-        "lightinject.5.3.0.nupkg.sha512",
-        "lightinject.nuspec"
-      ]
-    },
-    "LightInject.Microsoft.DependencyInjection/2.2.0": {
-      "sha512": "MwXaG8/HG5Uvu536BcRxoHgOJdW/WL2Fx0KZ1PdGrJEQUjB2qboh9Ig6zhQysXMHQVSe8yR3/SDDP3TzBrbvJg==",
-      "type": "package",
-      "path": "lightinject.microsoft.dependencyinjection/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/LightInject.Microsoft.DependencyInjection.dll",
-        "lib/netstandard2.0/LightInject.Microsoft.DependencyInjection.pdb",
-        "lib/netstandard2.0/LightInject.Microsoft.DependencyInjection.xml",
-        "lightinject.microsoft.dependencyinjection.2.2.0.nupkg.sha512",
-        "lightinject.microsoft.dependencyinjection.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore/2.2.0": {
       "sha512": "xfDHe+J94oz2d+ESDU8u+96iSfsiPwpgYGPRSp/bato0Ekjz5kYs61u9mS0GN5t8n/wxc5P3uEJm1x7TfROxhQ==",
       "type": "package",
@@ -3620,50 +3540,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "System.ValueTuple/4.5.0": {
-      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
-      "type": "package",
-      "path": "system.valuetuple/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.ValueTuple.dll",
-        "lib/net461/System.ValueTuple.xml",
-        "lib/net47/System.ValueTuple.dll",
-        "lib/net47/System.ValueTuple.xml",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.0/System.ValueTuple.dll",
-        "lib/netstandard1.0/System.ValueTuple.xml",
-        "lib/netstandard2.0/_._",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
-        "lib/uap10.0.16299/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.ValueTuple.dll",
-        "ref/net47/System.ValueTuple.dll",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard2.0/_._",
-        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
-        "ref/uap10.0.16299/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.valuetuple.4.5.0.nupkg.sha512",
-        "system.valuetuple.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "ProjectHerculesService.Common/1.0.0": {
       "type": "project",
       "path": "../ProjectHerculesService.Common/ProjectHerculesService.Common.csproj",
@@ -3697,8 +3573,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "LightInject.Microsoft.DependencyInjection >= 2.2.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "ProjectHerculesService.Gateway >= 1.0.0",
       "ProjectHerculesService.Models >= 1.0.0",
@@ -3707,25 +3581,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Beastmode\\.nuget\\packages\\": {},
+    "C:\\Users\\DuffyFamily\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Library\\ProjectHerculesService.Library.csproj",
+      "projectUniqueName": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Library\\ProjectHerculesService.Library.csproj",
       "projectName": "ProjectHerculesService.Library",
-      "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Library\\ProjectHerculesService.Library.csproj",
-      "packagesPath": "C:\\Users\\Beastmode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Library\\obj\\",
+      "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Library\\ProjectHerculesService.Library.csproj",
+      "packagesPath": "C:\\Users\\DuffyFamily\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Beastmode\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DuffyFamily\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3739,14 +3613,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj": {
-              "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj"
+            "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj": {
+              "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Gateway\\ProjectHerculesService.Gateway.csproj"
             },
-            "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Models\\ProjectHerculesService.Models.csproj": {
-              "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Models\\ProjectHerculesService.Models.csproj"
+            "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Models\\ProjectHerculesService.Models.csproj": {
+              "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Models\\ProjectHerculesService.Models.csproj"
             },
-            "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Repository\\ProjectHerculesService.Repository.csproj": {
-              "projectPath": "C:\\Users\\Beastmode\\Repo\\ProjectHercules\\ProjectHerculesService.Repository\\ProjectHerculesService.Repository.csproj"
+            "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Repository\\ProjectHerculesService.Repository.csproj": {
+              "projectPath": "C:\\Users\\DuffyFamily\\source\\repos\\ProjectHerculesService\\ProjectHerculesService.Repository\\ProjectHerculesService.Repository.csproj"
             }
           }
         }
@@ -3760,14 +3634,6 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
-          "LightInject.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
-          "Microsoft.Extensions.DependencyInjection.Abstractions": {
-            "target": "Package",
-            "version": "[2.2.0, )"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

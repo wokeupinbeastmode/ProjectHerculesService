@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ProjectHerculesService.Web2/obj
+/ProjectHerculesService.Web2/bin/Debug/netcoreapp2.2
