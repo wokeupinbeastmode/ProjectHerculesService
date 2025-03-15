@@ -1,3 +1,7 @@
 # ProjectHerculesService
-# This project has not be revised or refactored in a few years. This project is a demo service. 
-# This project is very incomplete and should not be forked.
+Initial commit - Incomplete .NET/C# service
+
+This is an incomplete and unrefactored service built with .NET and C#. The code has not been updated or maintained for several years. Please note that this project should not be forked or used as a base for new projects at this time. Future updates and refactoring are required before it can be considered for active development.
+
+Proceed with caution and be aware of potential technical debt and issues.
+
